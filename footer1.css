@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+.footer{
+    background: #0B3052; 
+    padding: 40px 40px;
+    margin:20px 20px;
+    color: white;
+}
+.row{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.box{
+  border-right: 1px solid white;
+  margin: 10px;
+}
+.box h2{
+    margin: 10px 10px;
+}
+
+.box p{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.button{
+    border: 1px solid white;
+    background: #0B3052;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin:20px 20px;
+}
+.fa {
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+   .fa-facebook:hover {
+    opacity: 0.9;
+    color:#3b5998;
+    padding: 20px 20px;
+    margin: 20px 20px;
+  }
+   .fa-twitter:hover {
+    opacity: 0.9;
+    color:#1DA1F2;
+    padding: 20px 20px;
+    margin: 20px 20px;
+  }
+  
+   .fa-facebook {
+    
+    color: white;
+    padding:10px;
+  }
+   .fa-twitter {
+   
+    color:white;
+    padding:10px;
+  }
+  .fa-youtube{
+    
+    color:white;
+    padding:10px;
+  }
+  .fa-linkedin{
+    color:white;
+    padding:10px;
+  }
+  .socil-media{
+    justify-content: space-between;
+
+    
+  }
+  .footer-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 10px 10px;
+      margin: 20px 20px;
+      color: #9CCFED;
+     
+  }
+  .copyrights h4{
+    font-family: Segoe UI;
+    
+  }
+ .footer-menu{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+ }
+ .footer-menu1{
+  border-right: 1px solid white;
+  padding: 10px;
+  margin: 20px;
+ }
+ 
+ /*for mapping details*/
+
+.address-details{
+  font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI;
+}
+.intresting-facts{
+   background-image:url(Frame.png);
+    max-width: 100%;
+    height: 600px;
+    background-position: center;
+   background-repeat:no-repeat;
+   padding-right: 150px;
+   padding-left: 150px;
+}
+.facts-desc h4{
+    text-align: center;
+    padding-top: 47px;
+    color: white;
+}
+.facts-desc h1{
+    color: white;
+    text-align: center;
+    padding-top: 65px;
+}
+.group
+{    
+    max-width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding:41px;
+  
+}
+.group h1{
+    color: white;
+}
+.group p{
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.trophy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    color: white;
+}
+.trophy-1{
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+}
+.trophy-1 p{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+}
+.business-started{
+    background-image: url(frame2.png);
+    height: 440px;
+}
+.business-started p{
+    padding-top:50px;
+    padding-left: 173px;
+    color: white;
+}
+.business-started h1{
+    padding-left:173px ;
+    padding-top: 60px;
+    color: white;
+}
+.button-2{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #0095D9;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    width: 117px;
+    height: 43px;
+    margin-left:173px;
+    margin-top: 50px;
+}
